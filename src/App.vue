@@ -9,15 +9,16 @@
         </div>
       </div>
     </div>
-
+    <UsersList />
   </div>
 </template>
 
 
 <script>
 
+import UsersList from "@/components/UsersList";
 export default {
-  components: {}
+  components: {UsersList}
 }
 </script>
 <style>
