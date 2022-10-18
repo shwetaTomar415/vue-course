@@ -9,15 +9,16 @@
         </div>
       </div>
     </div>
-
+    <Greeting />
   </div>
 </template>
 
 
 <script>
 
+import Greeting from "@/components/Greeting";
 export default {
-  components: {}
+  components: {Greeting}
 }
 </script>
 <style>
