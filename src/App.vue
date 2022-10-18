@@ -9,15 +9,16 @@
         </div>
       </div>
     </div>
-
+    <Register />
   </div>
 </template>
 
 
 <script>
 
+import Register from "@/components/Register";
 export default {
-  components: {}
+  components: {Register}
 }
 </script>
 <style>
